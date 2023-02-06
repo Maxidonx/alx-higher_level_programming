@@ -3,7 +3,6 @@
 A python function
 '''
 
-
 def lookup(obj):
     '''
     Function to display attributes and
