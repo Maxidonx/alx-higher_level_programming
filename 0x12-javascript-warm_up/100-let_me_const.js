@@ -1,2 +1,2 @@
 #!/usr/bin/node
-myVar = 333;
+exports.list = [1, 2, 3, 4, 5];
