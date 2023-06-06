@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Holberton School</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#red_header").click(function() {
+        $("header").addClass("red");
+      });
+    });
+  </script>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="red_header">Click me to add class red to header</div>
+  <header>
+    First HTML page
+  </header>
+  <footer>
+    Holberton School - 2017
+  </footer>
+</body>
+</html>

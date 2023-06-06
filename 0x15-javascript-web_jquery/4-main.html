@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Toggle Header Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .red {
+      color: red;
+    }
+    .green {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div id="toggle_header">Toggle Header</div>
+  <header class="red"> 
+    First HTML page
+  </header>
+  <script>
+    $(document).ready(function() {
+      $("#toggle_header").click(function() {
+        $("header").toggleClass("red green");
+      });
+    });
+  </script>
+</body>
+</html>
+
